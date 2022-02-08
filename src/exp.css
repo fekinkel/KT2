@@ -1,0 +1,7 @@
+#div :dir(ltr) {
+  background-color: yellow;
+}
+
+#div :dir(rtl) {
+  background-color: powderblue;
+}

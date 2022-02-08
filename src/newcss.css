@@ -1,0 +1,80 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 8px;
+}
+.DivCab {
+  grid-area: cab;
+  display: flex;
+  background-image: linear-gradient(180deg, #00fcfd, #00bdbd);
+  border-radius: 5px;
+  border-color: #000000;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+.DivDir {
+  grid-area: dir;
+  background-image: linear-gradient(180deg, #00bdbd, #00bdbd);
+  color: write;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #000000;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+.DivEsq {
+  grid-area: esq;
+  background-image: linear-gradient(180deg, #00bdbd, #00bdbd);
+  color: write;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #000000;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+.DivFot {
+  grid-area: fot;
+  background-image: linear-gradient(180deg, #00bdbd, #00bdbd);
+  color: write;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  border-color: #000000;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+.DivPag {
+  display: grid;
+  grid-template-columns: 240px 82vw;
+  grid-template-rows: 70px 85vh;
+  grid-template-areas:
+    "cab cab"
+    "esq dir";
+  grid-gap: 2px;
+}
+
+/*.DivEsq {
+  grid-area: esq;
+  background-color: #ffa08c;
+  margin: margin-width 1;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 0px;
+  border-color: #000000;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+
+.DivPri {
+  grid-area: pri;
+  background-color: #ffff64;
+  margin: margin-width 1;
+  margin-left: 2px;
+  border-color: #000000;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+*/

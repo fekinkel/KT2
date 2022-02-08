@@ -1,0 +1,11 @@
+.cab > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
+.DivCab .btn {
+  left: 10px;
+  background-color: red;
+  margin-left: 10px;
+}
